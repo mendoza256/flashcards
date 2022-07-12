@@ -23,7 +23,6 @@ export default function NewQuizForm() {
     }
     
     const cardIds = [];
-    
     // create the new cards here and add each card's id to cardIds
     cards.forEach(card => {
       let cardId = uuidv4();
